@@ -1,0 +1,37 @@
+{
+  "settingsPage":
+  {
+    "providerDropdown": ["css",".mat-select-trigger"],
+    "ecmOption": ["id","mat-option-1"],
+    "applyButton": ["id","host-button"]
+    
+  },
+  "loginPage":
+  {
+    "loginInput": ["id","username"],
+    "passwordInput": ["id","password"], 
+    "signInButton": ["id","login-button"]
+  },
+
+  "demoPage":
+  {
+    "demoLogo": ["css",".adf-app-title"]
+  },
+
+  "contentPage":
+  {
+    "clickOnFolder": ["css","button[data-automation-id='create-new-folder']"],
+     "modalDialog": ["css","mat-dialog-container[id^='mat-dialog']"],
+    "name": ["id","adf-folder-name-input"],
+    "createBtn": ["id","adf-folder-create-button"],
+    "errorTextMessage": ["css",".mat-simple-snackbar.ng-star-inserted"],
+    "cancelBtn": ["id","adf-folder-cancel-button"],
+    "totalRows": ["css",".adf-datatable-body adf-datatable-row"],
+    "deleteBtn": ["css","div[role='menu'] button:nth-child(5)"]
+
+
+  }
+
+
+  
+}
