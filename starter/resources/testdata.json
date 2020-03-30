@@ -1,0 +1,25 @@
+
+ {
+  "search": {
+    "baseUrl": "http://qaexercise.envalfresco.com/settings"
+  },
+ "providerValue": {
+    "value": "ECM"
+  },
+  "login": {
+    "userName": "guest@example.com",
+    "password": "Password"
+  },
+  "homePage": {
+    "filesUrl": "http://qaexercise.envalfresco.com/files"
+  },
+
+  "modal": {
+    "name": "Venkata"
+  },
+
+  "message": {
+    "errorMessage": "There's already a folder with this name. Try a different name"
+  }
+
+}
