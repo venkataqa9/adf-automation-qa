@@ -1,6 +1,6 @@
 module.exports = function () {
     'use strict';
-    // Login page
+    
     var objRepo = require('../resources/objectRepository.json');
 
     var objLocator = new utils.objectLocator();
@@ -55,11 +55,11 @@ module.exports = function () {
         List<Webelement> rows= element.all(totalRows);
         for (var i=1;i<=rows.length;i++)
         {
-            var folderName= driver.findElement(By.cssSelector(".adf-datatable-body adf-datatable-row:nth-child("+ i +") >div:nth-child(2)"));
-            var dots= driver.findElement(By.cssSelector(".adf-datatable-body adf-datatable-row:nth-child("+ i +") >div:nth-child(8)"));
+            var folderName=element(by.css(".adf-datatable-body adf-datatable-row:nth-child("+ i +") >div:nth-child(2)"));
+            var dots= element(by.css(".adf-datatable-body adf-datatable-row:nth-child("+ i +") >div:nth-child(8)"));
            if (folderName.getText().matches("Venkata")){
-                waitForVisibilityOfElement(folderName).click();
-                waitForVisibilityOfElement(dots).click();
+                folderName.click();
+                dots.click();
                 break;
             }
         }
