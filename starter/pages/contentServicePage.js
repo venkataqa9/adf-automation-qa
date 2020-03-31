@@ -64,6 +64,7 @@ module.exports = function () {
             }
         }
         buttonActions.click(deleteBtn);
+        /* I found a bug, when I click on delete selected folder is not deleted and it is giving 403 status code*/
         return this;
     };
 
