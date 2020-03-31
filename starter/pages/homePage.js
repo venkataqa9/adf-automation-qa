@@ -1,6 +1,6 @@
 module.exports = function () {
     'use strict';
-    // Login page
+  
     var objRepo = require('../resources/objectRepository.json');
 
     var objLocator = new utils.objectLocator();
